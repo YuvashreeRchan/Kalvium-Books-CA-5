@@ -1,0 +1,72 @@
+    header {
+        background-color: #0081ea;
+        padding: 15px 20px;
+        color: white;
+    }
+    
+    header nav {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        width: 100%;
+    }
+    
+    .app-name {
+        margin: 0;
+        font-size: 28px;
+        font-weight: bold;
+        margin-left: 20px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav-link {
+        text-decoration: none; 
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        background-color: rgba(234, 227, 227, 0.5);
+        border-radius: 10px;
+        padding: 10px 10px;
+        margin-right: 130px;
+        margin-left: 150px;
+        flex-grow: 1;
+        max-width: 700px;
+    }
+    
+    .search-bar input {
+        background: none;
+        border: none;
+        color: white;
+        margin-left: 10px;
+        width: 100%;
+        outline: none;
+        
+    }
+    
+    .search-bar input::placeholder {
+        color: rgba(255, 255, 255, 0.9);
+    }
+    
+    .reg-btn {
+        background-color: #edeee9;
+        color: #0081ea;
+        font-weight: bold;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 40px;
+        margin-right: 10px;
+        width: 150px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    .reg-btn:hover {
+        background-color: #73dd7a;
+    }
+    
+    
